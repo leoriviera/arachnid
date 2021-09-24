@@ -1,6 +1,21 @@
+export enum Mark {
+    MarkOne = 1,
+    MarkTwo,
+    MarkThree,
+}
+
+export enum Boost {
+    Zero = 1,
+    One,
+    Two,
+    Three,
+    Four,
+    Five,
+}
+
 export type Constructor = {
     coordinates: Coordinates;
-    isMarkOne?: boolean;
+    markNumber?: Mark;
 };
 
 export type Coordinates = {

@@ -1,1 +1,1 @@
-export * from './lib/ArachnidOne';
+export * from './lib/ArachnidFramework';
