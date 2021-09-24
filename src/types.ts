@@ -1,5 +1,6 @@
 export type Constructor = {
     coordinates: Coordinates;
+    isMarkOne?: boolean;
 };
 
 export type Coordinates = {
